@@ -1,4 +1,4 @@
-public class Program8 {
+public class program8 {
     public static void main(String[] args) {
         String bin = "100";
         int n = Integer.parseInt(bin, 2);

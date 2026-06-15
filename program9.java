@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class problem9 {
+public class program9 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         System.out.print("Input an integer: ");
-        int number = Math.abs(input.nextInt());
+        int number = Math.abs(sc.nextInt());
         int sum = 0;
 
         while (number > 0) {
@@ -13,6 +13,6 @@ public class problem9 {
         }
 
         System.out.println("The sum of the digits is: " + sum);
-        input.close();
+        sc.close();
     }
 }

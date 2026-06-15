@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class problem11 {
+public class program11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a string: ");
@@ -19,7 +19,7 @@ public class problem11 {
             }
         }
 
-        System.out.println("The string is : " + text);
+        System.out.println("The string is : " + S);
         System.out.println("letter: " + letters);
         System.out.println("space: " + spaces);
         System.out.println("number: " + numbers);
