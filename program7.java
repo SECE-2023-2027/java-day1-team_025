@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Program5 {
+public class Problem7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a decimal number: ");
-        int x = sc.nextInt();
-        String y = Integer.toBinaryString(x);
-        System.out.println("Binary number is: " + y);
+        int n = sc.nextInt();
+        String y = Integer.toOctalString(n);
+        System.out.println("Octal number is: " + y);
     }
 }
